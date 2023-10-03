@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    
+    background-image: url("Images/back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+   height: 750px;
+
+    
+    /* background-image: url(Images/back.jpg);  */
+    background-position: center;
+    background-size: cover;
+   
+    
+    padding-top: 20px;
+    background-attachment: fixed;
+    text-align: center;
+    
+    
+}
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size:14px;
+    padding:60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+}
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex:1;
+    text-align:center;
+}
+.footer-col-2 img{
+    width:180px;
+    margin-bottom:20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background:#b5b5b5;
+    height:1px;
+    margin:20px 0;
+}
+.Copyright{
+    text-align: center;
+}
+.menu-icon{
+    width:28px;
+    margin-left: 20px;
+    display: none;
+}
+.header img{
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 100px;
+    padding: 5px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color:rgb(190, 181, 181);
+    color: #fff;
+    float: right;
+    
+}
+.ex h1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    color: #fffbfb;
+}
+
+
+
+.search-bar
+{
+    width: 80%;
+    max-width: 500px;
+    background:rgb(249, 249, 249);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 2px ;
+   
+    margin: auto;
+    
+    
+}
+
+/* search  */
+.search-bar input
+{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 20px; 
+    color: #030303;
+}
+::placeholder
+{
+    color: #9b9aa6;
+}
+.search-bar button img{
+    width: 30px;  
+    
+    padding-left: 20px;
+}
+.search-bar button
+{
+    background: linear-gradient(#cbd7d1,#0b0e16);
+    border: 0;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 30px;
+    border: 0;
+    box-shadow: none;
+    
+    width:100px;
+    height: 60px;
+    transition: 1s;
+    
+    cursor: pointer;
+}
+.search-bar button:hover
+{
+    transform: scale(1.1);
+}
+.search text{
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0;
+    color: rgb(225, 223, 223);
+    padding: 0 25px;
+    border-radius: 30px;
+}
+
+/* Features */
+.features{
+    padding: 80px 0;
+    /* background-image: linear-gradient(rgb(251, 251, 251), rgb(86, 212, 223))  */
+   background-color: rgb(26,48,66);
+    
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0,18);
+    margin-bottom: 30px;
+}
+.features h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color : rgb(255, 255, 255);
+}
+.feature-img img{
+ width: 100%;
+ transition: 1s;
+
+
+}
+.feature-img img:hover{
+    transform: scale(1.1);
+}
+.feature-img{
+    position: relative;
+}
+.text{
+    font: weight 600px; ;
+    width: 400px;
+    height: 10px;
+    padding-left: 130px;
+    color: rgb(255, 243, 255);
+    
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+    color: #fff;
+}
+/* Food */
+.food{
+   background-color: rgb(26,48,66);
+    
+    
+
+    padding: 100px 0;
+    
+}
+.food h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.food-box img{
+width: 100%;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+}
+.food-box img:hover{
+    transform: scale(1.1);
+}
+.food-box h4{
+  display: block;
+    color: rgb(249, 249, 249);
+    text-shadow: -2px 2px 2px rgb(73, 67, 67);
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+/* Footer */

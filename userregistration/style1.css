@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(#bbbbd7, white,rgb(181, 129, 129));
+    background-size: cover;
+    background-position: center;
+}
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+.login-left{
+    background: linear-gradient(rgb(237, 234, 234),rgb(171, 161, 161));
+    padding: 30px;
+}
+.login-right{
+    background: linear-gradient(rgb(242, 242, 242),rgb(171, 161, 161));
+    padding: 30px;
+
+}
+.form-control{
+    background-color: transparent !important;
+}
